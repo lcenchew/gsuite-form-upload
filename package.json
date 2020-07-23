@@ -1,0 +1,24 @@
+{
+  "name": "dev-container-gas",
+  "version": "1.0.0",
+  "description": "A setup for working on google app script in a container with VS Code or Gitpod",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "clasp push --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcenchew/dev-container-gas.git"
+  },
+  "author": "lcenchew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcenchew/dev-container-gas/issues"
+  },
+  "homepage": "https://github.com/lcenchew/dev-container-gas#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "@google/clasp": "2.3.0",
+    "@types/google-apps-script": "^1.0.14"
+  }
+}
