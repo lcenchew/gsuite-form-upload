@@ -1,8 +1,20 @@
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lcenchew/dev-container-gas)
-# Dev Container - Google Apps Script
-A setup for working on Google Apps Script in a VS Code or Gitpod container
+# G-Suite Google Form File Upload - Google Apps Script
+A simple setup for file upload using the file upload in Google Forms.
 
 ## Quick Start
+
+- See [Using Clasp](#using-clasp) to login, create or clone a project
+- For first time only, go to [Script Editor](https://script.google.com/) to open your project and run `createFormSubmitTrigger`
+- Go to the form to create the file upload item to the form. (still unable to [add programatically](https://stackoverflow.com/questions/59400692/)) 
+
+
+## Clasp
+
+- https://github.com/google/clasp
+- https://developers.google.com/apps-script/guides/clasp
+
+### Using Clasp
 
 Login the user
 ```
@@ -11,9 +23,7 @@ clasp login --no-localhost
 
 Create a new Project
 ```
-clasp create --title "Title" --type standalone --rootDir ./src
-clasp create --title "Title" --type forms --rootDir ./src
-clasp create --title "Title" --parentId "*******" --rootDir ./src
+clasp create --title "File-Upload" --type forms --rootDir ./src
 ```
 
 Clone and work on an existing project
@@ -42,11 +52,6 @@ Open in the script editor
 ```
 clasp open
 ```
-
-## Clasp
-
-- https://github.com/google/clasp
-- https://developers.google.com/apps-script/guides/clasp
 
 ## VS Code
 
