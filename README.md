@@ -9,6 +9,9 @@ A simple setup for file upload using the file upload in Google Forms.
 - For first time only, go to [Script Editor](https://script.google.com/) to open your project and run `createFormSubmitTrigger` from `createFormSubmitTrigger.js`
 - Go to the form to create the file upload item to the form. (still unable to [add programatically](https://stackoverflow.com/questions/59400692/)) 
 - If needed, create other form content by running `setupForm` from `setupForm.js` in the Script Editor
+- If needed, create a spreadsheet to hold the form responses.
+
+Note: If  encounter "do not have permission" issue, run `main` from the Script Editor to review and approve the authorization.
 
 ## Clasp
 
