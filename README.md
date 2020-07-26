@@ -5,9 +5,10 @@ A simple setup for file upload using the file upload in Google Forms.
 ## Quick Start
 
 - See [Using Clasp](#using-clasp) to login, create or clone a project
-- For first time only, go to [Script Editor](https://script.google.com/) to open your project and run `createFormSubmitTrigger`
+- Push code to project `clasp push`
+- For first time only, go to [Script Editor](https://script.google.com/) to open your project and run `createFormSubmitTrigger` from `createFormSubmitTrigger.js`
 - Go to the form to create the file upload item to the form. (still unable to [add programatically](https://stackoverflow.com/questions/59400692/)) 
-
+- If needed, create other form content by running `setupForm` from `setupForm.js` in the Script Editor
 
 ## Clasp
 
