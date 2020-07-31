@@ -40,6 +40,7 @@ function setupForm() {
             item.createChoice('Relish')
         ]);
 
-    Logger.log('Published URL: ' + form.getPublishedUrl());
-    Logger.log('Editor URL: ' + form.getEditUrl());
+    console.log('Published URL: ' + form.getPublishedUrl());
+    console.log('Shorten URL: ' + form.shortenFormUrl(form.getPublishedUrl()));
+    console.log('Editor URL: ' + form.getEditUrl());
 }
