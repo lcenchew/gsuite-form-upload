@@ -3,6 +3,7 @@ image:
 
 vscode:
   extensions:
+    - vivaxy.vscode-conventional-commits@1.10.1:ztHr0xX5hkfQilbTTFitFw==
     - dbaeumer.vscode-eslint@2.1.3:1NRvj3UKNTNwmYjptmUmIw==
     - ms-vscode.vscode-typescript-tslint-plugin@1.2.2:0nQ3PEEA0NPEt3UcbCYiIQ==
     - vscode.docker@1.45.1:eQ/pnJJVK3y7ID81nCWhTA==
