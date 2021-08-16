@@ -18,7 +18,7 @@
   "homepage": "https://github.com/lcenchew/dev-container-gas#readme",
   "devDependencies": {},
   "dependencies": {
-    "@google/clasp": "2.3.0",
+    "@google/clasp": "2.4.1",
     "@types/google-apps-script": "^1.0.14"
   }
 }
